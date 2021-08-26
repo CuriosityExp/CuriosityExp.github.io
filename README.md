@@ -1,4 +1,4 @@
-# HTMLandCSS
+# HTML and CSS
 a special octo potato
 
 Q: Why I made this repo?  <br>
