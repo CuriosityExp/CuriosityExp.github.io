@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: gray;
+}
+
+.container {
+  width: 1170px;
+  padding: 2px 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-size: 25px
+}
+
+.header-left{
+  margin-top: 10px;
+  float: left;
+  color:white;
+}
+.header-right{
+  margin-top: 10px;
+  float:right;
+  color:white;
+}
+
+.fab{
+margin-right: 2px;
+}
+.hylink{
+  text-decoration: none;
+  color: white;
+}
