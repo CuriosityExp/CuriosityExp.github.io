@@ -4,6 +4,7 @@ const numbers = document.querySelectorAll(".num");
 const equalSign = document.querySelector(".equal-sign");
 const clearBtn = document.querySelector(".all-clear");
 const decimal = document.querySelector(".dec");
+const copyScreen = document.querySelector(".copy-key");
 
 const updateScreen = (number) => {
     calcScreen.value = number;
@@ -93,3 +94,15 @@ decimal.addEventListener('click', (event) => {
     updateScreen(currentNumber);
 })
 
+copyScreen.addEventListener('click', () => {
+    var copyText = calcScreen;
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+    navigator.clipboard.writeText(copyText.value);
+    changeValue();
+})
+
+function changeValue() {
+    copyScreen.value="Copied!"
+}
+  

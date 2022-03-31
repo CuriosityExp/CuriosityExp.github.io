@@ -1,6 +1,8 @@
 # HTML and CSS
 a special octo potato
-
+*NEW UPDATE*
+Calculator 
+---------------------------------------------------------------------------------------------
 Q: Why I made this repo?  <br>
 A: Because I want to mock my friend.
 

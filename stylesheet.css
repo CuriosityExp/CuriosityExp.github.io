@@ -63,6 +63,7 @@ margin-right: 2px;
   font-size: 40px;
   text-align: right;
   color: black;
+  width: 75%;
 }
 
 .row * {
@@ -80,12 +81,34 @@ margin-right: 2px;
 
 .opt {
   width: 19.60%;
+  background-color: rgb(39, 223, 183);
 }
-
+.opt:hover {
+  background-color: rgb(12, 184, 147);
+}
 .all-clear {
   width: 10%;
 }
 
 .percentage {
   width: 5%;
+}
+
+.num, .all-clear, .equal-sign, .dec, .percentage, .copy-key {
+  margin: 1px 0;
+}
+
+.num:hover, .all-clear:hover, .equal-sign:hover, .dec:hover, .percentage:hover, .copy-key:hover {
+  background-color: rgb(255, 164, 44);
+}
+
+.num:active, .all-clear:active, .equal-sign:active, .dec:active, .percentage:active, .copy-key:active {
+    margin-bottom: 2px;
+}
+
+.copy-key{
+  width: 21% ;
+  font-size: 30px;
+  line-height: 45px;
+  color: black;
 }
